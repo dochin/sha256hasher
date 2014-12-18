@@ -4,14 +4,17 @@ wordpress-sha256hasher
 Wordpress plugin to hash passwords using standard crypt sha256.
 
 Copyright 2014 by Jason Campbell
-GPLv2 license
-dochin@campound.org
-https://github.com/dochin/wordpress-sha256hasher
+License: GPLv2
+Contact: dochin@campound.org
+Web: https://github.com/dochin/wordpress-sha256hasher
 
-Use at your own risk!
+Use at your own risk!  I know it's barely enough code to even call a plugin,
+but maybe someone will find it useful.
 
 Purpose
 =======
+
+This replaces the password hashing function built into wordpress in pluggable.php.
 
 An SHA256 hash is convenient because:
 a.	An SHA256 hash with salt will fit in the default wordpress user 
